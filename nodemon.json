@@ -1,0 +1,8 @@
+{
+  "watch": ["."],
+  "legacyWatch": true, 
+  "pollingInterval": 4000,
+  "ext": "ts",
+  "exec": "ts-node index.ts"
+}
+

@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+
+  api_server:
+    build: .
+    container_name: server
+    ports:
+      - 8888:8888
+    env_file: ./deployment/loc.env
+    volumes:
+      - .:/app
